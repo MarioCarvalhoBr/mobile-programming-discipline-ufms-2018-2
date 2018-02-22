@@ -39,7 +39,15 @@
 	*Instalação dos componentes
 	*Ligação de componentes
 	*Apresentação da pasta `res`
-   Aula 02 (14/07/2018):
+	*Criação de componetes visuais
+	
+   Aula 02 (21/02/2018):
+	*Pilha do sistema operacional Android
+	*Camadas de abstração de hardware (HAL)
+	*Android Runtime (ART)
+	*Estrutura dos dados da API
+	*Activities, Java Code e XML Code
+	*
 	*
 	*
 	*
@@ -48,7 +56,7 @@
 # Sobre os códigos
 <strong>Códigos e apresentações desenvolvidos no minicurso</strong>
 
-	Os códigos desenvolvidos durante o minicurso são totalmente 
+	Os códigos disponibilizados nesse repositório são totalmente 
 	gratuitos e estão sobre a Licença Apache 2.0 e podem ser usuados 
 	segundo os termos da licença.
 

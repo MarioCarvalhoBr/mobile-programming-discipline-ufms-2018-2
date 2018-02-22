@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="br.com.mariodearaujocarvalho.project_1_calculadora.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Insira o 1º número:"/>
+
+    <EditText
+        android:id="@+id/edtValor1"
+        android:hint="Ex: 45"
+        android:layout_width="match_parent"
+        android:inputType="numberDecimal"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Insira o 2º número:"/>
+
+    <EditText
+        android:id="@+id/edtValor2"
+        android:hint="Ex: 50"
+        android:inputType="numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:text="Calcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
