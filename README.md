@@ -47,10 +47,11 @@
 	*Android Runtime (ART)
 	*Estrutura dos dados da API
 	*Activities, Java Code e XML Code
-	*
-	*
-	*
-	*
+   Aula 03 (27/02/2018)
+    *SDK Manager e APIs
+    *Android Virtual Device
+    *Resources
+    *ConstraintLayout
 </pre>
 
 # Sobre os códigos
