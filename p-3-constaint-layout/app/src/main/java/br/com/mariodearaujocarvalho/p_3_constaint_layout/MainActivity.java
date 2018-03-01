@@ -24,19 +24,27 @@ public class MainActivity extends AppCompatActivity {
     public void check(){
     }
 
-    public void onClickSubtrai(android.view.View view){
+    public void onClickCalcula(android.view.View view){
         String v1 = edtValor1.getText().toString();
         String v2 = edtValor2.getText().toString();
         AlertDialog.Builder alerta = new AlertDialog.Builder(this);
+        int id = view.getId();
+
         if(v1.trim().isEmpty() || v2.trim().isEmpty()){
             alerta.setMessage("Insira os valores corretamente!");
             alerta.setNegativeButton("Ok", null);
             alerta.show();
-        }else{
+        }else if(id == R.id.btnSoma){
             double valor1 = 0, valor2 = 0, resultado = 0;
             valor1 = Double.parseDouble(v1);
             valor2 = Double.parseDouble(v2);
             resultado = valor1 + valor2;
+            edtResultado.setText(""+resultado);
+        }else if(id == R.id.btnSubtrai){
+            double valor1 = 0, valor2 = 0, resultado = 0;
+            valor1 = Double.parseDouble(v1);
+            valor2 = Double.parseDouble(v2);
+            resultado = valor1 - valor2;
             edtResultado.setText(""+resultado);
         }
     }

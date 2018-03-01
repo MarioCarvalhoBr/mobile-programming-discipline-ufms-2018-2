@@ -52,6 +52,9 @@
     *Android Virtual Device
     *Resources
     *ConstraintLayout
+   Aula 04 (28/02/2018)
+    *Activitys
+    *Intents
 </pre>
 
 # Sobre os códigos
