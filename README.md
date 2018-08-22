@@ -27,34 +27,33 @@
 
 <pre>
 <b>Introdução</b>
-   Aula 01 (07/08/2018):
-	*Ementa da disciplina	
-	*Histórico das versões do Android
-	*Configurando o Android Studio
-	*Apresentação do Android Studio
-	*Projeto incial: HelloWorld
-	*Arquivo AndroidManifest.xml
-	*Modo gráfico de design
-	*Executando um projeto
-	*Instalação dos componentes
-	*Ligação de componentes
-	*Apresentação da pasta `res`
-	*Criação de componetes visuais
-	
-   Aula 02 (10/08/2018):
-	*Pilha do sistema operacional Android
-	*Camadas de abstração de hardware (HAL)
-	*Android Runtime (ART)
-	*Estrutura dos dados da API
-	*Activities, Java Code e XML Code
-   Aula 03 (14/08/2018)
-    *SDK Manager e APIs
-    *Android Virtual Device
-    *Resources
-    *ConstraintLayout
-   Aula 04 (17/08/2018)
-    *Activitys
-    *Intents
+	Aula 01 (07/08/2018):
+		*Ementa da disciplina	
+		*Histórico das versões do Android
+		*Configurando o Android Studio
+		*Apresentação do Android Studio
+		*Projeto incial: HelloWorld
+		*Arquivo AndroidManifest.xml
+		*Modo gráfico de design
+		*Executando um projeto
+		*Instalação dos componentes
+		*Ligação de componentes
+		*Apresentação da pasta `res`
+		*Criação de componetes visuais
+	Aula 02 (10/08/2018):
+		*Pilha do sistema operacional Android
+		*Camadas de abstração de hardware (HAL)
+		*Android Runtime (ART)
+		*Estrutura dos dados da API
+		*Activities, Java Code e XML Code
+	Aula 03 (14/08/2018)
+		*SDK Manager e APIs
+		*Android Virtual Device
+		*Resources
+		*ConstraintLayout
+	Aula 04 (17/08/2018)
+		*Activitys
+		*Intents
 </pre>
 
 # Sobre os códigos
