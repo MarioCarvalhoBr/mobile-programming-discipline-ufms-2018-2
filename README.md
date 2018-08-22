@@ -1,7 +1,7 @@
-# Disciplina de Programação para Dispositivos Móveis.
+﻿# Disciplina de Programação para Dispositivos Móveis.
 
 ## Informações
-<strong> Repositório da disciplina de programação para dispositivos móveis, ufms 2018-1.</strong> 
+<strong> Repositório da disciplina de programação para dispositivos móveis, ufms 2018-2.</strong> 
 
 <pre>
 <b>Sobre este repositório:</b>
@@ -27,7 +27,7 @@
 
 <pre>
 <b>Introdução</b>
-   Aula 01 (20/02/2018):
+   Aula 01 (20/08/2018):
 	*Ementa da disciplina	
 	*Histórico das versões do Android
 	*Configurando o Android Studio
@@ -41,18 +41,18 @@
 	*Apresentação da pasta `res`
 	*Criação de componetes visuais
 	
-   Aula 02 (21/02/2018):
+   Aula 02 (21/08/2018):
 	*Pilha do sistema operacional Android
 	*Camadas de abstração de hardware (HAL)
 	*Android Runtime (ART)
 	*Estrutura dos dados da API
 	*Activities, Java Code e XML Code
-   Aula 03 (27/02/2018)
+   Aula 03 (27/08/2018)
     *SDK Manager e APIs
     *Android Virtual Device
     *Resources
     *ConstraintLayout
-   Aula 04 (28/02/2018)
+   Aula 04 (28/08/2018)
     *Activitys
     *Intents
 </pre>
@@ -83,4 +83,4 @@
 
 ````
 
-<a href="https://github.com/MarioDeAraujoCarvalho/mobile-programming-discipline-ufms-2018-1/blob/master/LICENSE" target="_blank">Mais detalhes sobre a licença</a>
+<a href="https://github.com/MarioDeAraujoCarvalho/mobile-programming-discipline-ufms-2018-2/blob/master/LICENSE" target="_blank">Mais detalhes sobre a licença</a>
