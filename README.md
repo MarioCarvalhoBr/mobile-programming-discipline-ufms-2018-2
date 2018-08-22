@@ -15,7 +15,7 @@
 <b>Sobre a disciplina:
     Nome da disciplina: Programação para Dispositivos Móveis
     Professora: Ana Karina
-    Semestre: 2018.1
+    Semestre: 2018.2
 	Discente: Mário de Araújo Carvalho
 	E-mail: mariodearaujocarvalho@gmail.com
 	GitHub: <a href="https://github.com/MarioDeAraujoCarvalho" target="_blank">https://github.com/MarioDeAraujoCarvalho</a>

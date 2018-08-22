@@ -1,0 +1,4 @@
+Guia do Desenvolvedor Android
+Material atualizado do Android Studio para desenvolvedores
+
+Clique o link https://developer.android.com/guide/index.html?hl=pt-br para abrir o recurso
