@@ -6,11 +6,11 @@
 <pre>
 <b>Sobre este repositório:</b>
 <b>Oque é?</b>
-	*Repositório dos códigos fontes da disciplina.
+	* Repositório dos códigos fontes da disciplina.
 <b>Motivação</b>
-	*Deixar os códigos em um lugar onde possa ser acessado ou compartihado de forma mais prática.
+	* Deixar os códigos em um lugar onde possa ser acessado ou compartihado de forma mais prática.
 <b>Objetivo</b>
-	*Documentar o conteúdo da disciplina.
+	* Documentar o conteúdo da disciplina.
 	
 <b>Sobre a disciplina:
     Nome da disciplina: Programação para Dispositivos Móveis
@@ -28,32 +28,52 @@
 <pre>
 <b>Introdução</b>
 	Aula 01 (07/08/2018):
-		*Ementa da disciplina	
-		*Histórico das versões do Android
-		*Configurando o Android Studio
-		*Apresentação do Android Studio
-		*Projeto incial: HelloWorld
-		*Arquivo AndroidManifest.xml
-		*Modo gráfico de design
-		*Executando um projeto
-		*Instalação dos componentes
-		*Ligação de componentes
-		*Apresentação da pasta `res`
-		*Criação de componetes visuais
+		* Ementa da disciplina	
+		* Histórico das versões do Android
+		* Configurando o Android Studio
+		* Apresentação do Android Studio
+		* Projeto incial: HelloWorld
+		* Arquivo AndroidManifest.xml
+		* Modo gráfico de design
+		* Executando um projeto
+		* Instalação dos componentes
+		* Ligação de componentes
+		* Apresentação da pasta `res`
+		* Criação de componetes visuais
 	Aula 02 (10/08/2018):
-		*Pilha do sistema operacional Android
-		*Camadas de abstração de hardware (HAL)
-		*Android Runtime (ART)
-		*Estrutura dos dados da API
-		*Activities, Java Code e XML Code
+		* Pilha do sistema operacional Android
+		* Camadas de abstração de hardware (HAL)
+		* Android Runtime (ART)
+		* Estrutura dos dados da API
+		* Activities, Java Code e XML Code
 	Aula 03 (14/08/2018)
-		*SDK Manager e APIs
-		*Android Virtual Device
-		*Resources
-		*ConstraintLayout
+		* SDK Manager e APIs
+		* Android Virtual Device
+		* Resources
+		* ConstraintLayout
 	Aula 04 (17/08/2018)
-		*Activitys
-		*Intents
+		* Criando "Hello World em Android"
+		* manifest.xml
+		* Layout
+		* Buttons
+		* TextViews
+		* EditTexts
+	Aula 05 (20/08/2018)
+		* Activitis
+		* Intents
+		* LinearLayout
+		* RelativeLayout
+		* ScrollView
+	Aula 04 (23/08/2018)
+		* Recursos de colors.xml
+		* Recursos de string.xml
+			* Strings
+			* Arrays
+			* Integers
+		* RadioGroup
+			* RadioButton
+		* Spinners
+		* Listeners
 </pre>
 
 # Sobre os códigos

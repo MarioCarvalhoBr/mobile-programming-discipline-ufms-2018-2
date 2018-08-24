@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Super Venda Ingressos</string>
+    <string name="user">Usuário</string>
+    <string name="value">Valor</string>
+    <string name="integer">Inteiro</string>
+    <string name="middle">Média</string>
+    <string name="calculate">Calcular Ingresso</string>
+
+    <string-array name="shows">
+        <item name="show1">CAPITAL INICIAL</item>
+        <item name="show1">BETH CARVALHO ENCONTRA FUNDO DE QUINTAL</item>
+        <item name="show1">SKANK - OS TRÊS PRIMEIROS</item>
+        <item name="show1">Beth Carvalho encontra Fundo de Quintal</item>
+    </string-array>
+
+    <string-array name="areas">
+        <item name="area1">Normal</item>
+        <item name="area1">VIP</item>
+        <item name="area1">Camarote</item>
+    </string-array>
+</resources>
