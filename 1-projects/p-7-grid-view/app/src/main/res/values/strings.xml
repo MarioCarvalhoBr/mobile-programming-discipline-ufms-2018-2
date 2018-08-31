@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Exemplo GridView</string>
+
+    <string name="txt_name">Nome:</string>
+    <string name="txt_next">Avançar</string>
+    <string name="txt_list_dogs">Lista de Cachorinhos</string>
+</resources>

@@ -74,6 +74,13 @@
 			* RadioButton
 		* Spinners
 		* Listeners
+	Aula 05 (28/08/2018)
+		* Buttons and Icons
+	Aula 06 (23/08/2018)
+		* ListView
+		* GridView
+		* Listners para coletar clicks na lista
+		* Bundle
 </pre>
 
 # Sobre os códigos
