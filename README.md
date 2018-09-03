@@ -1,4 +1,4 @@
-﻿# Disciplina de Programação para Dispositivos Móveis.
+# Disciplina de Programação para Dispositivos Móveis.
 
 ## Informações
 <strong> Repositório da disciplina de programação para dispositivos móveis, ufms 2018-2.</strong> 
@@ -84,11 +84,19 @@
 </pre>
 
 # Sobre os códigos
-<strong>Códigos e apresentações desenvolvidos no minicurso</strong>
+<strong>Códigos e apresentações desenvolvidos durante a disciplina</strong>
 
 	Os códigos disponibilizados nesse repositório são totalmente 
 	gratuitos e estão sobre a Licença Apache 2.0 e podem ser usuados 
 	segundo os termos da licença.
+
+# Extra
+<strong>Minicurso Gratuito de Desenvolvimento Android</strong>
+
+Caso seja do interrese, eu também disponibilizo em outro repositório um minicurso sobre desenvolvimento android, com apostilhas, apresentações e códigos. O minicurso vai do básico ao intermediáio.
+Segue o link:<br>
+<a href="https://github.com/MarioDeAraujoCarvalho/MiniCursoAndroid" target="_blank">MINI CURSO DE DESENVOLVIMENTO ANDROID GRATUITO</a>
+
 
 # Licença Apache 2.0
 
