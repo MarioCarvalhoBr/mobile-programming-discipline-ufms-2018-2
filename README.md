@@ -81,6 +81,13 @@
 		* GridView
 		* Listners para coletar clicks na lista
 		* Bundle
+	Aula 07 (04/09/2018)
+		* ListView
+		* MediaPlayer
+		* Toast
+		* Recursos raw
+		* Listners para coletar clicks na lista
+		* ScrollView
 </pre>
 
 # Sobre os códigos
