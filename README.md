@@ -88,6 +88,16 @@
 		* Recursos raw
 		* Listners para coletar clicks na lista
 		* ScrollView
+	Aula 08 (06/09/2018)
+		* AppCompatActivity
+		* Menu
+		* MenuItem
+		* Menu com ícones
+		* PoppupMenu
+		* CordinationLayout
+		* SnackBar
+		* Toolbar
+		* FloatingActionButton
 </pre>
 
 # Sobre os códigos

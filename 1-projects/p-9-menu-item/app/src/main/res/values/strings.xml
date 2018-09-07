@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Exemplo Menu</string>
+    <string name="action_home">Home</string>
+    <string name="action_settings">Configurações</string>
+    <string name="action_color">Mudar cor</string>
+    <string name="action_text">Mudar texto</string>
+    <string name="action_quit">Sair</string>
+</resources>
