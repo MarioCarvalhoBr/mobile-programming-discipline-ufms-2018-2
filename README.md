@@ -98,6 +98,15 @@
 		* SnackBar
 		* Toolbar
 		* FloatingActionButton
+	Aula 9 (11/09/2018)
+		* Thread
+		* Handler
+		* ProgressBar
+		* ImageView
+		* Exception
+		* HttpURLConnection
+		* Requisições HTTP
+		* LogCat
 </pre>
 
 # Sobre os códigos
