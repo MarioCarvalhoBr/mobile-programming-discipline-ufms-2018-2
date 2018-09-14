@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Exemplo AsyckTask</string>
+    <string name="txt_title_download">Download em andamento</string>
+    <string name="txt_text_download">Por favor, aguarde...</string>
+</resources>

@@ -5,6 +5,7 @@ import android.graphics.BitmapFactory;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -38,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
                     public void run(){
                         try
                         {
+                            Log.i("onPostExecute", "Iniciando o Download da imagem...");
                             URL mUrl = new URL("https://developer.android.com/static/images/home/android-p-clear-bg-with-shadow-@1x.png");
                             HttpURLConnection mConnection;
                             mConnection = (HttpURLConnection) mUrl.openConnection();

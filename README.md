@@ -21,18 +21,28 @@
 	GitHub: <a href="https://github.com/MarioDeAraujoCarvalho" target="_blank">https://github.com/MarioDeAraujoCarvalho</a>
 	Unidade: UFMS - FACOM
 </pre>
+# Módulos
+<strong>
+	A disciplina terá duas provas, portanto, chamaremos as provas de módulos. <br>
+	Assim sendo, nas sessões Módulo 1 e 2, são os conteúdos passados em sala referente ao conteúdo das provas. <br>
+	Portanto: <br>
+	Módulo 1 = Conteúdo da prova 1 <br>
+	Módulo 2 = Conteúdo da prova 2 <br>
+</strong>
 
 # Módulo 1
-<strong>Histórico das versões do Android, gráfico de versões, ferramentas, primeiras noções básicas.</strong>
+<strong>
+	Histórico das versões do Android, gráfico de versões, ferramentas, primeiras noções básicas.
+</strong>
 
 <pre>
-<b>Introdução</b>
+<b>Conteúdo</b>
 	Aula 01 (07/08/2018):
 		* Ementa da disciplina	
 		* Histórico das versões do Android
 		* Configurando o Android Studio
 		* Apresentação do Android Studio
-		* Projeto incial: HelloWorld
+		* Projeto inicial: HelloWorld em Android
 		* Arquivo AndroidManifest.xml
 		* Modo gráfico de design
 		* Executando um projeto
@@ -47,7 +57,7 @@
 		* Estrutura dos dados da API
 		* Activities, Java Code e XML Code
 	Aula 03 (14/08/2018)
-		* SDK Manager e APIs
+		* SDK Manager e API's
 		* Android Virtual Device
 		* Resources
 		* ConstraintLayout
@@ -107,6 +117,26 @@
 		* HttpURLConnection
 		* Requisições HTTP
 		* LogCat
+	Aula 10 (13/09/2018)
+		* AsynckTask
+			* Construtor carregado
+			* onPreExecute
+			* doInBackground
+			* onPostExecute
+		* ProgressDialog
+		* ImageView
+		* IOException
+		* Context
+		* Interfaces em threads
+</pre>
+
+# Módulo 2
+<strong>
+	Programação avançada em Android
+</strong>
+
+<pre>
+<b>Conteúdo</b>
 </pre>
 
 # Sobre os códigos
