@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Exemplo SQLite</string>
+
+    <!--Others texts-->
+    <string name="wellcome">Seja bem-vindo(a):</string>
+    <string name="contact1">Pedro Silva Santos</string>
+
+    <!--Forms - TextView Labels-->
+    <string name="user">Usuário:</string>
+    <string name="name">Nome:</string>
+    <string name="email">Email::</string>
+    <string name="password">Senha:</string>
+    <string name="confirm_password">Confirmar a Senha:</string>
+
+    <!--Forms - Buttons-->
+    <string name="login">Entrar</string>
+    <string name="register">Cadastrar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="back">Voltar</string>
+</resources>

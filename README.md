@@ -30,6 +30,13 @@
 	Módulo 2 = Conteúdo da prova 2 <br>
 </strong>
 
+# Datas Importantes
+<strong>
+	Primeira Prova  P1: 04/10/2018 <br>
+	Segunda Prova  P2: 20/11/2018 <br>
+	Prova Optativa  PO: 04/12/2018 <br>
+</strong>
+
 # Módulo 1
 <strong>
 	Histórico das versões do Android, gráfico de versões, ferramentas, primeiras noções básicas.
@@ -128,6 +135,12 @@
 		* IOException
 		* Context
 		* Interfaces em threads
+	Aula 11 (18/09/2018)
+		* Lista de exercícios - e1
+	Aula 12 (20/09/2018)
+		* Introdução ao armazenamento de dados
+		* SQLite
+		* Principais métodos - CRUD
 </pre>
 
 # Módulo 2
