@@ -6,8 +6,10 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
-import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class DBHelper extends SQLiteOpenHelper {
     // Instância do database
@@ -15,7 +17,7 @@ public class DBHelper extends SQLiteOpenHelper {
     Context mContext;
     //Constatntes referente ao banco de dados
     private static final String DATABASE_NAME = "my_database_contact.db";
-    private static final int DATABASE_VERSION = 1;
+    private static final int DATABASE_VERSION = 3;
 
     /** Constatntes referente a tabela: contato*/
     private static final String TABLE_CONTACTS_NAME = "contact"; // Nome da tabela
@@ -30,8 +32,8 @@ public class DBHelper extends SQLiteOpenHelper {
             + TABLE_CONTACTS_NAME + " ( "
             + TABLE_CONTACTS_COLUM_ID + " integer PRIMARY KEY AUTOINCREMENT, "
             + TABLE_CONTACTS_COLUM_NAME + " TEXT NOT NULL,"
-            + TABLE_CONTACTS_COLUM_EMAIL + " TEXT NOT NULL,"
-            + TABLE_CONTACTS_COLUM_USER + " TEXT NOT NULL,"
+            + TABLE_CONTACTS_COLUM_EMAIL + " TEXT NOT NULL UNIQUE,"
+            + TABLE_CONTACTS_COLUM_USER + " TEXT NOT NULL UNIQUE,"
             + TABLE_CONTACTS_COLUM_PASSWORD + " TEXT NOT NULL ) ; " ;
 
     public DBHelper(Context context) {
@@ -50,12 +52,13 @@ public class DBHelper extends SQLiteOpenHelper {
         Log.i("TAG", "Versão antiga: " + versaoAntiga);
         Log.i("TAG", "Versão nova: " + versaoNova);
         String query = "DROP TABLE IF EXISTS "+ TABLE_CONTACTS_NAME ;
+        mDatabase = db;
         mDatabase.execSQL(query);
         this.onCreate(mDatabase);
     }
 
     // ContactDAO - CRUD
-    public void insert(Contact contact){
+    boolean insert(Contact contact){
         mDatabase = this.getWritableDatabase();
 
         ContentValues values = new ContentValues();
@@ -65,12 +68,16 @@ public class DBHelper extends SQLiteOpenHelper {
         values.put(TABLE_CONTACTS_COLUM_PASSWORD, contact.getPassword());
 
         long i = mDatabase.insert(TABLE_CONTACTS_NAME, null,values );
+        // Encerra o a conexao com banco de dados
         mDatabase.close();
         if(i > 0){
             Log.i("TAG","Sucesso ao inserir no banco de dados");
+            return true;
         }else {
             Log.e("TAG","Erro ao inserir no banco de dados");
+            return false;
         }
+
     }
     public String getPassword(String user) {
         mDatabase = this.getWritableDatabase();
@@ -87,7 +94,46 @@ public class DBHelper extends SQLiteOpenHelper {
                 }
             } while (cursor.moveToNext());
         }
+        // Encerra o a conexao com banco de dados
+        mDatabase.close();
         return  b;
     }
+    public ArrayList<Contact> getAll(){
+        // Cria um List guardar os pessoas consultados no banco de dados
+        ArrayList<Contact> contacts = new ArrayList<Contact>();
+        // Contato auxiliar
+        Contact contact = null;
+        // Colunas desejadas no retorno
+        String[] coluns = {TABLE_CONTACTS_COLUM_NAME, TABLE_CONTACTS_COLUM_EMAIL};
+
+        // Instancia uma nova conexão com o banco de dados em modo leitura
+        mDatabase = this.getWritableDatabase();
+
+
+        // Executa a consulta no banco de dados
+        Cursor cursor = mDatabase.query(TABLE_CONTACTS_NAME, coluns ,null, null, null, null, TABLE_CONTACTS_COLUM_ID +" ASC");
+        //db.rawQuery("SELECT * FROM contacts;",null);
+        /**
+         * Percorre o Cursor, injetando os dados consultados em um objeto definido do
+         * tipo {@link Contact} e adicionando-os na List
+         */
+        try{
+            while (cursor.moveToNext()){
+                contact = new Contact();
+                contact.setName(cursor.getString(cursor.getColumnIndex(TABLE_CONTACTS_COLUM_NAME)));
+                contact.setEmail(cursor.getString(cursor.getColumnIndex(TABLE_CONTACTS_COLUM_EMAIL)));
+
+                contacts.add(contact);
+            }
+        }finally {
+            // Encerra o Cursor
+            cursor.close();
+        }
+        // Encerra o a conexao com banco de dados
+        mDatabase.close();
+        //retorno a lista
+        return contacts;
+    }
+
 
 }

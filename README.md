@@ -141,6 +141,10 @@
 		* Introdução ao armazenamento de dados
 		* SQLite
 		* Principais métodos - CRUD
+	Aula 13 (25/09/2018)
+		* Contiuação de projeto SQLite
+		* Funções de pesquisa avançadas em banco de dados
+		* ArrayAdapter<Object>
 </pre>
 
 # Módulo 2

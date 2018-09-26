@@ -11,6 +11,13 @@ public class Contact implements Serializable{
     public Contact() {
     }
 
+    public Contact(String name, String email, String user, String password) {
+        this.name = name;
+        this.email = email;
+        this.user = user;
+        this.password = password;
+    }
+
     public String getName() {
         return name;
     }
@@ -41,5 +48,13 @@ public class Contact implements Serializable{
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    @Override
+    public String toString() {
+        return "Contact{" +
+                "name='" + name + '\'' +
+                ", email='" + email + '\'' +
+                '}';
     }
 }

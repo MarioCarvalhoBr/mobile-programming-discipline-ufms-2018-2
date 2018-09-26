@@ -27,6 +27,7 @@
                 android:layout_height="wrap_content"
                 android:inputType="textPersonName"
                 android:enabled="false"
+                android:textColor="@color/colorPrimary"
                 android:text="@string/contact1"
                 android:id="@+id/edtUser"/>
             <LinearLayout
@@ -41,6 +42,21 @@
                     android:layout_height="wrap_content"
                     android:text="@string/back" />
             </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tvCity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_list_users"/>
+            <ListView
+                android:id="@+id/lvContacts"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="5dp"/>
+        </LinearLayout>
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

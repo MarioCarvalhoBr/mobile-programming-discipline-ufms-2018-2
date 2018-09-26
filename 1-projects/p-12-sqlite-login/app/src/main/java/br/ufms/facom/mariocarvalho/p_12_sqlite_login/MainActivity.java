@@ -13,11 +13,15 @@ public class MainActivity extends AppCompatActivity {
     private EditText edtPassword;
     private Button btnLogin;
     private Button btnRegister;
+    private DBHelper mDBHelper;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        mDBHelper = new DBHelper(MainActivity.this);
 
         edtUser = findViewById(R.id.edtUser);
         edtPassword = findViewById(R.id.edtPassword);
@@ -28,7 +32,14 @@ public class MainActivity extends AppCompatActivity {
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "Login", Toast.LENGTH_SHORT).show();
+                String user = edtUser.getText().toString();
+                String password = edtPassword.getText().toString();
+                String confirmResult = mDBHelper.getPassword(user);
+                if(password.equals(confirmResult)){
+                    startActivity(new Intent(MainActivity.this, Details.class).putExtra("user_key", user));
+                }else{
+                    Toast.makeText(MainActivity.this, "Usuário ou senha não conferem", Toast.LENGTH_SHORT).show();
+                }
             }
         });
 

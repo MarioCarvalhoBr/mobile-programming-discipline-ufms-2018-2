@@ -11,6 +11,7 @@
     <string name="email">Email::</string>
     <string name="password">Senha:</string>
     <string name="confirm_password">Confirmar a Senha:</string>
+    <string name="txt_list_users">Lista de Usuários</string>
 
     <!--Forms - Buttons-->
     <string name="login">Entrar</string>
