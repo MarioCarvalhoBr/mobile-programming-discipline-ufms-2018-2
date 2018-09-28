@@ -98,17 +98,38 @@ public class DBHelper extends SQLiteOpenHelper {
         mDatabase.close();
         return  b;
     }
+    public long delete(Contact c){
+        long retornoBD;
+        mDatabase = this.getWritableDatabase();
+        String[] args = {String.valueOf(c.getName())};
+        retornoBD = mDatabase.delete(TABLE_CONTACTS_NAME, TABLE_CONTACTS_COLUM_NAME + "=?", args);
+        mDatabase.close();
+        return retornoBD;
+    }
+
+    public long update(Contact contact) {
+        long retornoBD;
+        mDatabase = this.getWritableDatabase();
+        ContentValues values = new ContentValues();
+        values.put(TABLE_CONTACTS_COLUM_NAME, contact.getName());
+        values.put(TABLE_CONTACTS_COLUM_EMAIL, contact.getEmail());
+        values.put(TABLE_CONTACTS_COLUM_USER, contact.getUser());
+        values.put(TABLE_CONTACTS_COLUM_PASSWORD, contact.getPassword());
+        String[] args = {String.valueOf(contact.getUser())};
+        retornoBD = mDatabase.update(TABLE_CONTACTS_NAME, values, TABLE_CONTACTS_COLUM_USER + "=?", args);
+        mDatabase.close();
+        return retornoBD;
+    }
     public ArrayList<Contact> getAll(){
         // Cria um List guardar os pessoas consultados no banco de dados
         ArrayList<Contact> contacts = new ArrayList<Contact>();
         // Contato auxiliar
         Contact contact = null;
         // Colunas desejadas no retorno
-        String[] coluns = {TABLE_CONTACTS_COLUM_NAME, TABLE_CONTACTS_COLUM_EMAIL};
+        String[] coluns = {TABLE_CONTACTS_COLUM_NAME, TABLE_CONTACTS_COLUM_EMAIL, TABLE_CONTACTS_COLUM_USER, TABLE_CONTACTS_COLUM_PASSWORD};
 
         // Instancia uma nova conexão com o banco de dados em modo leitura
         mDatabase = this.getWritableDatabase();
-
 
         // Executa a consulta no banco de dados
         Cursor cursor = mDatabase.query(TABLE_CONTACTS_NAME, coluns ,null, null, null, null, TABLE_CONTACTS_COLUM_ID +" ASC");
@@ -122,6 +143,8 @@ public class DBHelper extends SQLiteOpenHelper {
                 contact = new Contact();
                 contact.setName(cursor.getString(cursor.getColumnIndex(TABLE_CONTACTS_COLUM_NAME)));
                 contact.setEmail(cursor.getString(cursor.getColumnIndex(TABLE_CONTACTS_COLUM_EMAIL)));
+                contact.setUser(cursor.getString(cursor.getColumnIndex(TABLE_CONTACTS_COLUM_USER)));
+                contact.setPassword(cursor.getString(cursor.getColumnIndex(TABLE_CONTACTS_COLUM_PASSWORD)));
 
                 contacts.add(contact);
             }

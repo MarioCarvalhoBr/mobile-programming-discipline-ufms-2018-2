@@ -145,6 +145,11 @@
 		* Contiuação de projeto SQLite
 		* Funções de pesquisa avançadas em banco de dados
 		* ArrayAdapter<Object>
+	Aula 14 (27/09/2018)
+		* Finalização do projeto SQLite
+		* Funções de exclusão e atualização em banco de dados
+		* ArrayAdapter<Object>
+		* MenuContext
 </pre>
 
 # Módulo 2

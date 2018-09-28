@@ -16,6 +16,7 @@
     <!--Forms - Buttons-->
     <string name="login">Entrar</string>
     <string name="register">Cadastrar</string>
+    <string name="save">Salvar</string>
     <string name="cancel">Cancelar</string>
     <string name="back">Voltar</string>
 </resources>

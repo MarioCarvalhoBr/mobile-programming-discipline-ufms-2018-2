@@ -8,7 +8,7 @@
     android:layout_marginLeft="20px"
     android:layout_marginRight="20px"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".Update">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -21,11 +21,30 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="@string/name"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:id="@+id/edtName"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/email"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:id="@+id/edtEmail"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:text="@string/user"/>
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textPersonName"
+                android:enabled="false"
                 android:id="@+id/edtUser"/>
             <TextView
                 android:layout_width="match_parent"
@@ -36,24 +55,31 @@
                 android:layout_height="wrap_content"
                 android:inputType="textPassword"
                 android:id="@+id/edtPassword"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/confirm_password"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:id="@+id/edtConfirmPassword"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
-
-                <Button
-                    android:id="@+id/btnLogin"
-                    android:layout_weight="1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/login" />
-
                 <Button
                     android:id="@+id/btnSave"
                     android:layout_weight="1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/register" />
+                    android:text="@string/save" />
+                <Button
+                    android:id="@+id/btnCalcel"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cancel" />
             </LinearLayout>
         </LinearLayout>
     </ScrollView>

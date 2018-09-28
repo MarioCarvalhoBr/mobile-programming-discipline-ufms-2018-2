@@ -16,8 +16,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Add" android:label="Cadastrar"/>
-        <activity android:name=".Details" android:label="Detalhes"></activity>
+        <activity
+            android:name=".Add"
+            android:label="Cadastrar" />
+        <activity
+            android:name=".Details"
+            android:label="Detalhes" />
+        <activity
+            android:name=".Update"
+            android:label="Atualizar"></activity>
     </application>
 
 </manifest>
