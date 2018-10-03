@@ -150,6 +150,8 @@
 		* Funções de exclusão e atualização em banco de dados
 		* ArrayAdapter<Object>
 		* MenuContext
+	Aula 15 (02/10/2018)
+		* Apresentação do primeiro trabalho
 </pre>
 
 # Módulo 2
