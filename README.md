@@ -152,6 +152,16 @@
 		* MenuContext
 	Aula 15 (02/10/2018)
 		* Apresentação do primeiro trabalho
+	Aula 15 (04/10/2018)
+		* Prova P1
+	Aula 16 (09/10/2018)
+		* Notificações em Android
+			* NotificationCompat
+			* NotificationManagerCompat
+			* NotificationChannel;
+			* NotificationManager;
+			* PendingIntent;
+		* Adicionando suporte para versão 8.0 do Android
 </pre>
 
 # Módulo 2

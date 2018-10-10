@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Examplo Notification</string>
+    <string name="txt_notification_new">Criar Notificação</string>
+    <string name="txt_notification_title">Título da notificação</string>
+    <string name="txt_notification_content">Conteúdo da notificação: Loren ipsun dolor sit amet</string>
+    <string name="txt_notification_description">Descrição da notificação: Loren ipsun dolor sit amet...</string>
+</resources>
