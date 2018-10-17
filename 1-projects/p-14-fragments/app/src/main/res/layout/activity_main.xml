@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20px"
+    android:layout_marginBottom="20px"
+    android:layout_marginLeft="20px"
+    android:layout_marginRight="20px"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Trabalhando com Fragments"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#999999">
+
+                <LinearLayout
+                    android:id="@+id/layoutLeft"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:background="#FFFFFF"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+                        <ListView
+                            android:id="@+id/lvList"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                        </ListView>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/layoutRight"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="7"
+                    android:layout_margin="10dp"
+                    android:background="#FFFFFF"></LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+</LinearLayout>

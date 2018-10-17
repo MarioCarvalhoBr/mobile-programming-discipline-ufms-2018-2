@@ -162,6 +162,13 @@
 			* NotificationManager;
 			* PendingIntent;
 		* Adicionando suporte para versão 8.0 do Android
+	Aula 17 (16/10/2018)
+		* Fragments
+		* Ciclo de vida dos fragments
+		* Adicionando no XML e API Java
+		* FragmentManager
+		* FragmentTransaction
+		* Pilha de execução dos fragments
 </pre>
 
 # Módulo 2
