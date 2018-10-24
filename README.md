@@ -42,7 +42,6 @@
 <strong>
 	Histórico das versões do Android, gráfico de versões, ferramentas, primeiras noções básicas.
 </strong>
-	<pre>
 	<b>Conteúdo</b>
 		Aula 01 (07/08/2018):
 			* Ementa da disciplina	
@@ -176,7 +175,6 @@
 			* Acessando o disco e recuperando imagens
 			* Permissões no Android
 			* Permissões em tempo real
-	</pre>
 
 
 # Módulo 2
