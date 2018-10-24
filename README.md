@@ -169,6 +169,13 @@
 		* FragmentManager
 		* FragmentTransaction
 		* Pilha de execução dos fragments
+	Aula 18 (23/10/2018)
+		* Camera
+		* Galeria
+		* Salvando imagens no disco
+		* Acessando o disco e recuperando imagens
+		* Permissões no Android
+		* Permissões em tempo real
 </pre>
 
 # Módulo 2

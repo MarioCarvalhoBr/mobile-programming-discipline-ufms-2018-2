@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Camera Example</string>
+    <string name="take_picture">Tirar Foto</string>
+    <string name="select_picture">Selecionar Foto</string>
+</resources>
