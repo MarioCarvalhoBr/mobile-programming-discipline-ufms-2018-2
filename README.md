@@ -172,7 +172,7 @@ Aula 13 (25/09/2018)
   - Contiuação de projeto SQLite
   - Funções de pesquisa avançadas em banco de dados
   - ArrayAdapter<Object>
-  
+
 Aula 14 (27/09/2018)
 
   - Finalização do projeto SQLite
