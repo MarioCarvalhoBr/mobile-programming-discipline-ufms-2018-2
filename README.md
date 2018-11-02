@@ -1,29 +1,29 @@
 
 # Disciplina de Programação para Dispositivos Móveis.
 
-## Informações
-<strong> Repositório da disciplina de programação para dispositivos móveis, ufms 2018-2.</strong> 
+# Informações
+#### Repositório da disciplina de programação para dispositivos móveis, ufms 2018-2.</strong> 
 
-<b>Sobre este repositório:</b>
+# Sobre este repositório:
 
-<b>Oque é?</b>
+## Oque é?
    - Repositório dos códigos fontes da disciplina.
 	
-<b>Motivação</b>
+## Motivação
    - Deixar os códigos em um lugar onde possa ser acessado ou compartilhado de forma mais prática.
-<b>Objetivo</b>
+## Objetivo
    - Documentar o conteúdo da disciplina.
 	
-<b>Sobre a disciplina:
-    Nome da disciplina: Programação para Dispositivos Móveis
-    Professora: Ana Karina
-    Semestre: 2018.2
-	Discente: Mário de Araújo Carvalho
-	E-mail: mariodearaujocarvalho@gmail.com
-	GitHub: <a href="https://github.com/MarioDeAraujoCarvalho" target="_blank">https://github.com/MarioDeAraujoCarvalho</a>
-	Unidade: UFMS   - FACOM
+## Sobre a disciplina:
+   - Nome da disciplina: Programação para Dispositivos Móveis
+   - Professora: Ana Karina
+   - Semestre: 2018.2
+   - Discente: Mário de Araújo Carvalho
+   - E-mail: mariodearaujocarvalho@gmail.com
+   - GitHub: <a href="https://github.com/MarioDeAraujoCarvalho" target="_blank">https://github.com/MarioDeAraujoCarvalho</a>
+   - Unidade: UFMS   - FACOM
 
-# Módulos
+## Módulos
 <strong>
 	A disciplina terá duas provas, portanto, chamaremos as provas de módulos. <br>
 	Assim sendo, nas sessões Módulo 1 e 2, são os conteúdos passados em sala referente ao conteúdo das provas. <br>
@@ -32,18 +32,19 @@
 	Módulo 2 = Conteúdo da prova 2 <br>
 </strong>
 
-# Datas Importantes
+## Datas Importantes
 <strong>
 	Primeira Prova  P1: 04/10/2018 <br>
 	Segunda Prova  P2: 20/11/2018 <br>
 	Prova Optativa  PO: 04/12/2018 <br>
 </strong>
 
-# Módulo 1
+### Módulo 1
 <strong>
 	Histórico das versões do Android, gráfico de versões, ferramentas, primeiras noções básicas.
 </strong>
-<b>Conteúdo</b>
+
+#### Conteúdo
 
 Aula 01 (07/08/2018):
 
@@ -240,28 +241,29 @@ Aula 21 (01/11/2018)
   - MarkerOptions;
 
 
-# Módulo 2
+### Módulo 2
 <strong>
 	Programação avançada em Android
 </strong>
-<b>Conteúdo</b>
 
-# Sobre os códigos
+#### Conteúdo
+
+## Sobre os códigos
 <strong>Códigos e apresentações desenvolvidos durante a disciplina</strong>
 
 	Os códigos disponibilizados nesse repositório são totalmente 
 	gratuitos e estão sobre a Licença Apache 2.0 e podem ser usuados 
 	segundo os termos da licença.
 
-# Extra
-<strong>Minicurso Gratuito de Desenvolvimento Android</strong>
+## Extras
+### Minicurso Gratuito de Desenvolvimento Android
 
 Caso seja do interesse, eu também disponibilizo em outro repositório um minicurso sobre desenvolvimento Android, com apostilhas, apresentações e códigos. O minicurso vai do básico ao intermediário.
 Segue o link:<br>
 <a href="https://github.com/MarioDeAraujoCarvalho/MiniCursoAndroid" target="_blank">MINI CURSO DE DESENVOLVIMENTO ANDROID GRATUITO</a>
 
 
-# Licença Apache 2.0
+## Licença Apache 2.0
 
 ``` 
         Copyright 2017 Mário de Araújo Carvalho
