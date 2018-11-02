@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_itens"
+            android:icon="@mipmap/ic_menu_filtrar"
+            android:title="Itens" />
+
+        <item
+            android:id="@+id/nav_favoritos"
+            android:icon="@mipmap/ic_menu_favoritos"
+            android:title="Favoritos" />
+    </group>
+
+    <item android:title="Opções">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@mipmap/ic_menu_share_nav"
+                android:title="Compartilhar" />
+            <item
+                android:id="@+id/nav_sobre"
+                android:icon="@mipmap/ic_menu_sobre"
+                android:title="Sobre" />
+
+            <item
+                android:id="@+id/nav_sair"
+                android:icon="@mipmap/ic_menu_sair"
+                android:title="Sair" />
+        </menu>
+    </item>
+
+</menu>

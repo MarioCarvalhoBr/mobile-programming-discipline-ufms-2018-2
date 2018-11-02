@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="br.ufms.facom.mariocarvalho.bookkeeping.view.fragments.ItensFragment"
+    tools:showIn="@layout/fragment_list_registros_root">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/ll_fr_prmc"
+        android:orientation="vertical"
+        android:weightSum="1" >
+
+        <TextView
+            android:layout_marginTop="4dp"
+            android:id="@+id/txt_lista_de_registros"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lista de Registros"
+            android:maxLines="2"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:textColor="@color/md_black_1000_50"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ll_fr_prmc"
+            android:weightSum="2" >
+
+            <android.support.v4.widget.SwipeRefreshLayout
+                android:id="@+id/swipeContainer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/appbar"
+                tools:ignore="MergeRootFrame">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recycler_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="vertical"/>
+
+            </android.support.v4.widget.SwipeRefreshLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

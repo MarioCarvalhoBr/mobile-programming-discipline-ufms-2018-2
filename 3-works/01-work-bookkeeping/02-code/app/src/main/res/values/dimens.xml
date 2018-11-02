@@ -1,0 +1,99 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!-- toolbar.xml -->
+    <dimen name="toolbar_titleMarginStart">16dp</dimen>
+
+    <!-- fragment_participant_item.xml -->
+    <dimen name="txtShirtSize_layout_width">40dp</dimen>
+    <dimen name="txtShirtSize_layout_height">40dp</dimen>
+    <dimen name="txtShirtSize_textSize">20sp</dimen>
+
+    <dimen name="cardView_layout_margin">16dp</dimen>
+    <dimen name="search_icon_padding">12dp</dimen>
+    <dimen name="search_view_text_padding">65dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="item_offset">10dp</dimen>
+    <dimen name="detail_backdrop_height">250dp</dimen>
+    <dimen name="backdrop_title">30dp</dimen>
+    <dimen name="backdrop_subtitle">18dp</dimen>
+    <dimen name="card_margin">8dp</dimen>
+    <dimen name="card_album_radius">5dp</dimen>
+    <dimen name="album_cover_height">160dp</dimen>
+    <dimen name="album_title_padding">10dp</dimen>
+    <dimen name="album_title">15dp</dimen>
+    <dimen name="songs_count_padding_bottom">5dp</dimen>
+    <dimen name="songs_count">12dp</dimen>
+    <dimen name="ic_album_overflow_width">20dp</dimen>
+    <dimen name="ic_album_overflow_height">30dp</dimen>
+    <dimen name="ic_album_overflow_margin_top">10dp</dimen>
+    <dimen name="app_bar_height">300dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+
+    <!-- Toolbar -->
+    <dimen name="toolbar_height_phone_land">48dp</dimen>
+    <dimen name="toolbar_height_phone_port">56dp</dimen>
+    <dimen name="toolbar_height_tablet">64dp</dimen>
+
+    <!-- Navigation Drawer -->
+    <dimen name="drawer_top">24dp</dimen>
+    <dimen name="drawer_left">16dp</dimen>
+    <dimen name="drawer_right">16dp</dimen>
+    <dimen name="drawer_text_with_icon">72dp</dimen>
+    <dimen name="drawer_header_text">56dp</dimen>
+    <dimen name="drawer_grouping_padding">8dp</dimen>
+    <dimen name="drawer_item_height">48dp</dimen>
+    <dimen name="drawer_min_width_phone">320dp</dimen>
+    <dimen name="drawer_min_width_tablet">400dp</dimen>
+
+    <dimen name="title_height">45dip</dimen>
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="text_size_medium">18sp</dimen>
+    <dimen name="text_size_large">22sp</dimen>
+
+    <dimen name="txtTexto26sp">20sp</dimen>
+    <dimen name="txtTitulo">20sp</dimen>
+    <dimen name="txtSubtitulo15sp">18sp</dimen>
+
+    <dimen name="linear_layout_height">72dp</dimen>
+    <dimen name="linear_layout_marginLeft">16dp</dimen>
+    <dimen name="linear_layout_marginRight">16dp</dimen>
+    <dimen name="linear_layout_marginStart">16dp</dimen>
+
+    <dimen name="viewSeparator_layout_marginLeft">72dp</dimen>
+    <dimen name="viewSeparator_layout_marginStart">72dp</dimen>
+    <dimen name="viewSeparator_layout_marginTop">6dp</dimen>
+
+    <!-- activity_new_participant.xml -->
+    <dimen name="linear_editText_layout_marginLeft">28dp</dimen>
+    <dimen name="linear_editText_layout_marginStart">28dp</dimen>
+
+    <!-- activity_participant_detail.xml -->
+    <dimen name="appBarLayout_layout_height">256dp</dimen>
+
+    <!-- activity_raffle_main.xml -->
+    <dimen name="animatedLoad_layout_height">250dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <!-- fragment_partsicipant_item.xml -->
+    <dimen name="txt_imagem_layout_width">50dp</dimen>
+    <dimen name="txt_imagem_layout_height">40dp</dimen>
+    <!-- FAB -->
+    <dimen name="fab_big">54dp</dimen>
+    <dimen name="fab_small">40dp</dimen>
+
+    <dimen name="dots_height">30dp</dimen>
+    <dimen name="dots_margin_bottom">20dp</dimen>
+    <dimen name="img_width_height">120dp</dimen>
+    <dimen name="slide_title">30dp</dimen>
+    <dimen name="slide_desc">20dp</dimen>
+    <dimen name="desc_padding">40dp</dimen>
+
+    <dimen name="universal_margin">16dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">180dp</dimen>
+</resources>

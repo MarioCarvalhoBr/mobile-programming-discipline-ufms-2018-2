@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="br.ufms.facom.mariocarvalho.bookkeeping.view.activities.DetalhesItemActivity">
+
+    <item android:id="@+id/item_menu_deletar"
+        android:title="Excluír"
+        android:icon="@mipmap/ic_delete_white_trash"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/item_menu_editar"
+        android:title="Editar"
+        android:icon="@mipmap/ic_menu_opcao_editar"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+
+</menu>

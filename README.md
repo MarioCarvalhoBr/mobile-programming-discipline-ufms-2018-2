@@ -206,6 +206,11 @@ Aula 17 (16/10/2018)
   - FragmentTransaction
   - Pilha de execução dos fragments
   
+Aula 17 (18/10/2018)
+
+  - Apresentação da atividade Livros com SQLite
+  - Trabalho está no GIT
+  
 Aula 18 (23/10/2018)
 
   - Camera
@@ -214,6 +219,25 @@ Aula 18 (23/10/2018)
   - Acessando o disco e recuperando imagens
   - Permissões no Android
   - Permissões em tempo real
+  
+Aula 19 (25/10/2018)
+
+  - Toolbar
+  - Tab's
+
+Aula 120 (30/10/2018)
+
+  - Palestra
+  
+Aula 21 (01/11/2018)
+
+  - GoogleMaps
+  - CameraUpdateFactory;
+  - GoogleMap;
+  - OnMapReadyCallback;
+  - SupportMapFragment;
+  - LatLng;
+  - MarkerOptions;
 
 
 # Módulo 2

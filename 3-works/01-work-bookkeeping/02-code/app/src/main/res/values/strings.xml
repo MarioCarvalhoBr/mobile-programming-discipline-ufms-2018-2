@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">Bookkeeping</string>
+    <string name="app_version">Versão: 0.1 Alpha</string>
+    <string name="app_description">O Bookkeeping é um aplicativo que ajuda no controle de Livros e Editoras.</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main_navigation_drawer">Home Bookkeeping</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="text_hint_search_menu">Digite sua pesquisa...</string>
+    <string name="search_hint">Pesquisar...</string>
+
+    <!-- Textos referentes aos titulos das Activities e Fragments -->
+    <string name="title_activity_sobre">Sobre o Bookkeeping</string>
+    <string name="title_activity_item">Item</string>
+    <string name="title_activity_details_item">Detalhes do Item</string>
+    <string name="title_fragment_list_itens">Lista de Itens</string>
+    <string name="title_fragment_list_itens_favorites">Itens Favoritos</string>
+
+    <!-- Textos dos componentes das Activities e Fragments  -->
+    <string name="text_list_fragment_sem_itens">Não há itens! Clique no + para adicionar.</string>
+    <string name="text_list_fragment_com_itens">Lista de itens, clique para selecionar.</string>
+    <string name="text_list_fragment_favoritos_com_itens">Lista de itens favoritados, clique para selecionar.</string>
+    <string name="text_list_fragment_favoritos_sem_itens">Não há itens favoritados!</string>
+    <string name="text_list_atualizar_itens">Atualizando a lista de itens!</string>
+
+    <!-- Texto da função compartilhar o app -->
+    <string name="text_share_app">Olá!\n
+        Gostaria de compartilhar com você o aplicativo Bookkeeping.\n
+        O Bookkeeping é um modelo de design eficiente para Android. \n
+        Feito com o propósito de simplificar o processo de desenvolvimento de um projeto Android.\n
+        A framework tem como foco a praticidade, tornando-a assim, uma framework estremamente robusta.\n
+        Baixe e confira. :)\n
+        Disponível em:\n
+        https://play.google.com/store/apps/details?id=br.ufms.facom.mariocarvalho.bookkeeping
+        \n
+        \n
+        --\n
+        Enviado de Bookkeeping</string>
+
+    <!--Arrays -->
+    <string-array name="alert_dialog_menu_options">
+        <item>Visualizar</item>
+        <item>Editar</item>
+        <item>Excluír</item>
+        <item>Copiar Item</item>
+        <item>Compartilhar</item>
+    </string-array>
+
+    <!-- Avisos e aletas -->
+    <string name="text_aviso_title">Aviso</string>
+    <string name="text_aviso_excluir_item">Deseja realmente APAGAR esse item?</string>
+    <string name="text_aviso_opcao_sim">Sim</string>
+    <string name="text_aviso_opcao_nao">Não</string>
+    <string name="text_aviso_campo_obrigatorio">Você deve preencher o campo </string>
+
+    <!-- Outras palavras e textos -->
+    <string name="text_copia">Cópia</string>
+    <string name="text_descricao">Descrição: </string>
+
+    <!-- Textos referentes as strings da Activity Sobre-->
+    <string name="text_agradecimentos">Agradecimentos</string>
+    <string name="text_apoio">Apoio</string>
+    <string name="text_equipe_de_desenvolvimento">Equipe de Desenvolvimento</string>
+    <string name="text_repository_or_site_project">Repositório Oficial</string>
+    <string name="text_license_use">LICENÇA DE USO</string>
+
+    <!-- URLS e Links-->
+    <string name="link_download_app_or_download_play_store">https://play.google.com/store/apps/details?id=br.ufms.facom.mariocarvalho.bookkeeping</string>
+
+    <!--Contatos, E-mails, Nomes de Pessoas etc -->
+    <string name="text_email_contact">mariodearaujocarvalho@gmail.com</string>
+    <string name="text_send_email_subject">Feedback Bookkeeping</string>
+
+</resources>

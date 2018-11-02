@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	app:layout_behavior="@string/appbar_scrolling_view_behavior"
+	tools:context="br.ufms.facom.mariocarvalho.bookkeeping.view.activities.SobreActivity">
+
+		   <ScrollView
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent">
+
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical"
+				android:padding="16dp">
+
+				   <ImageView
+					   android:layout_width="90dp"
+					   android:layout_height="90dp"
+					   android:src="@mipmap/ic_launcher_round"
+					   android:paddingTop="5dp"
+					   android:id="@+id/imgLogo"
+					   android:gravity="center"
+					   android:layout_gravity="center_horizontal" />
+				   <TextView
+					   android:layout_width="match_parent"
+					   android:layout_height="wrap_content"
+					   android:layout_below="@+id/imgLogo"
+					   android:layout_marginTop="1dp"
+					   android:id="@+id/txtNomeProjeto"
+					   android:textStyle="bold"
+					   android:gravity="center"
+					   android:text="@string/app_name"
+					   android:textAppearance="?android:attr/textAppearanceLarge"
+					   android:textColor="@color/black"/>
+				   <TextView
+					   android:layout_width="match_parent"
+					   android:layout_height="wrap_content"
+					   android:layout_below="@+id/txtNomeProjeto"
+					   android:layout_marginTop="1dp"
+					   android:textSize="15dp"
+					   android:id="@+id/txtVersao"
+					   android:gravity="center"
+					   android:text="@string/app_version"
+					   android:textColor="@color/cardview_dark_background"/>
+				   <View
+					   android:id="@+id/divider"
+					   android:layout_width="wrap_content"
+					   android:layout_height="1dp"
+					   android:layout_marginTop="4dp"
+					   android:layout_margin="5dp"
+					   android:layout_below="@id/txt_titulo_informacoes"
+					   android:background="@color/md_black_1000_25" />
+				   <TextView
+					   android:layout_width="match_parent"
+					   android:layout_height="wrap_content"
+					   android:layout_below="@+id/viewSeparacao"
+					   android:layout_marginTop="4dp"
+					   android:id="@+id/txtTextoSobre"
+					   android:gravity="center"
+					   android:layout_margin="5dp"
+					   android:text="@string/app_description"
+					   android:textColor="@color/md_black_1000_75"/>
+
+				<View
+					   android:id="@+id/divider_2"
+					   android:layout_width="wrap_content"
+					   android:layout_height="1dp"
+					   android:layout_margin="5dp"
+					   android:layout_marginTop="5dp"
+					   android:layout_below="@id/txt_titulo_informacoes"
+					   android:background="@color/md_black_1000_25" />
+
+				<TextView
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="5dp"
+					android:gravity="center_horizontal"
+					android:text="@string/text_repository_or_site_project"
+					android:textSize="18dp"
+					android:textStyle="bold"
+					android:textColor="@color/abc_primary_text_material_light"/>
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginBottom="5dp"
+					android:text="www.github.com/mariodearaujocarvalho/fastframework"
+					android:autoLink="web"
+					android:gravity="center"
+					android:textStyle="bold"
+				/>
+
+				<TextView
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="5dp"
+					android:gravity="center_horizontal"
+					android:text="@string/text_equipe_de_desenvolvimento"
+					android:textSize="18dp"
+					android:textStyle="bold"
+					android:textColor="@color/abc_primary_text_material_light"/>
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginBottom="5dp"
+					android:text="Mário de Araújo Carvalho"
+					android:gravity="center"
+					android:textStyle="bold"/>
+
+				<TextView
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="5dp"
+					android:gravity="center_horizontal"
+					android:text="@string/text_apoio"
+					android:textSize="18dp"
+					android:textStyle="bold"
+					android:textColor="@color/abc_primary_text_material_light"/>
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginBottom="0dp"
+					android:text="UFMS"
+					android:gravity="center"
+					android:textStyle="bold"/>
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginBottom="5dp"
+					android:text="www.ufms.br"
+					android:autoLink="web"
+					android:gravity="center"
+					android:textStyle="bold"
+					/>
+
+				<TextView
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="5dp"
+					android:gravity="center_horizontal"
+					android:text="@string/text_agradecimentos"
+					android:textSize="18dp"
+					android:textStyle="bold"
+					android:textColor="@color/abc_primary_text_material_light"/>
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginBottom="5dp"
+					android:text="Prof. Ana Karina Dourado Salina de Oliveira"
+					android:gravity="center"
+					android:textStyle="bold"
+					/>
+
+				<TextView
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="5dp"
+					android:gravity="center_horizontal"
+					android:text="@string/text_license_use"
+					android:textSize="18dp"
+					android:textStyle="bold"
+					android:textColor="@color/abc_primary_text_material_light"/>
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginBottom="5dp"
+					android:text="STUDENT VERSION"
+					android:autoLink="web"
+					android:gravity="center"
+					android:textStyle="bold"
+					/>
+
+			</LinearLayout>
+
+		</ScrollView>
+	</RelativeLayout>

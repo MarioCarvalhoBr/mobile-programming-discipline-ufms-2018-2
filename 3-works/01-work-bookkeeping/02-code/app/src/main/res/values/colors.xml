@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default Colors -->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <!-- Others Colors -->
+    <color name="green_black">#1e6043</color>
+    <color name="search_layover_bg">#50000000</color>
+
+
+    <!-- Text Colors -->
+    <color name="divider_old">#dadada</color>
+    <color name="divider">#000000</color>
+    <color name="hints">#b8b8b8</color>
+    <color name="secondary">#212121</color>
+    <color name="text">#212121</color>
+    <color name="text_color">#413a3a</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <!-- Google Brand Colors -->
+    <color name="google_red">#dd4b39</color>
+    <color name="google_white">#ffffff</color>
+    <color name="google_text_disabled">#737373</color>
+    <color name="google_text">#ffffff</color>
+    <color name="windowBackground">#FFF5F5F5</color>
+
+    <color name="coloLink">#1ea4f7</color>
+    <color name="transparent">#00000000</color>
+    <color name="apagar">#f0d006</color>
+
+    <!-- Colors Whites-->
+    <color name="md_white_1000">#ffffff</color>
+    <color name="md_white_1000_10">#1affffff</color>
+    <color name="md_white_1000_15">#22ffffff</color>
+    <color name="md_white_1000_20">#33ffffff</color>
+    <color name="md_white_1000_25">#40ffffff</color>
+    <color name="md_white_1000_50">#80ffffff</color>
+    <color name="md_white_1000_60">#99ffffff</color>
+    <color name="md_white_1000_75">#c0ffffff</color>
+    <color name="md_black_1000_10">#1a000000</color>
+    <color name="md_black_1000_15">#26000000</color>
+    <color name="md_black_1000_20">#33000000</color>
+    <color name="md_black_1000_25">#40000000</color>
+    <color name="md_black_1000_50">#80000000</color>
+    <color name="md_black_1000_75">#c0000000</color>
+    <color name="md_black_1000">#000000</color>
+    <color name="md_black_1000_1">#131212</color>
+
+
+    <color name="jet">#222222</color>
+    <color name="oil">#333333</color>
+    <color name="monsoon">#777777</color>
+    <color name="jumbo">#888888</color>
+    <color name="aluminum">#999999</color>
+    <color name="base">#AAAAAA</color>
+    <color name="iron">#CCCCCC</color>
+    <!--light greens-->
+
+    <color name="azul_fraco">#6072d7</color>
+    <color name="amarelo">#f8f9b3</color>
+    <color name="amarelo_100">#f8f9b3</color>
+    <color name="amarelo_200">#f8f9b3</color>
+    <color name="amarelo_300">#f8f9b3</color>
+    <color name="amarelo_f">#FFD602</color>
+    <color name="amarelo_g">#4bbc71</color>
+    <color name="darkgreen">#000000</color>
+
+
+    <color name="theme_primary_white">#768dff</color>
+    <color name="theme_primary">#2196F3</color>
+    <color name="theme_primary_dark">#1976D2</color>
+    <color name="theme_primary_light">#BBDEFB</color>
+
+    <color name="theme_background">#FFFFFF</color>
+    <color name="theme_background_inverse">#212121</color>
+
+    <color name="theme_accent_1">#212121</color>
+
+    <color name="theme_primary_trans">#99212121</color>
+
+    <color name="theme_primary_text">#212121</color>
+    <color name="theme_secondary_text">#727272</color>
+    <color name="theme_primary_text_inverted">#ffffff</color>
+    <color name="theme_secondary_text_inverted">#8affffff</color>
+    <color name="theme_icons">#FFFFFF</color>
+    <color name="theme_divider">#B6B6B6</color>
+
+    <!-- greens -->
+    <color name="md_green_50">#e8f5e9</color>
+    <color name="md_green_100">#c8e6c9</color>
+    <color name="md_green_200">#a5d6a7</color>
+    <color name="md_green_300">#81c784</color>
+    <color name="md_green_400">#68bc6c</color>
+    <color name="md_green_500">#4caf50</color>
+    <color name="md_green_600">#43a047</color>
+    <color name="md_green_700">#388e3c</color>
+    <color name="md_green_800">#2e7d32</color>
+    <color name="md_green_900">#1b5e20</color>
+    <color name="md_green_A100">#b9f6ca</color>
+    <color name="md_green_A200">#69f0ae</color>
+    <color name="md_green_A400">#00e676</color>
+    <color name="md_green_A700">#00c853</color>
+    <color name="md_green_500_25">#404caf50</color>
+    <color name="md_green_500_50">#804caf50</color>
+    <color name="md_green_500_75">#c04caf50</color>
+
+</resources>
