@@ -15,30 +15,28 @@
 <strong> Informações de todos os trabalhos já realizados!</strong> 
 
 ## A FAZER
-<pre>
-1. Permitir o filtro para listar os livros cadastrados;
-2 Permitir o registro de editoras
-3 Permitir o registro de livros
-4 Permitir opera¸c˜oes como incluir, excluir e alterar dados nestas
-tabelas.
-5 Permitir o filtro para listar os livros cadastrados;
-</pre>
-
 ## FAZENDO
-Criando a estrutura básica do sistema.
-
 ## TESTANDO
-FastFramework
-
 ## FEITO
+01-work
+
 
 # KANBAN's LITE DOS TRABALHOS
 <strong> Informações específicas de cada realizado!</strong> 
-
+------------------------------------------------------------
+01-work
+------------------------------------------------------------
 ## A FAZER
-01-work
 ## FAZENDO
-01-work
 ## TESTANDO
-
 ## FEITO
+<pre>
+1 Permitir o filtro para listar os livros cadastrados;
+2 Permitir o registro de editoras
+3 Permitir o registro de livros
+4 Permitir operaç˜oes como incluir, excluir e alterar dados nestas
+tabelas.
+5 Permitir o filtro para listar os livros cadastrados;
+</pre>
+------------------------------------------------------------
+------------------------------------------------------------
