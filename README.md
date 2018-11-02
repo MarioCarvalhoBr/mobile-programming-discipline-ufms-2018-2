@@ -182,12 +182,20 @@ Aula 14 (27/09/2018)
   - MenuContext
   
 Aula 15 (02/10/2018)
+
   - Apresentação do primeiro trabalho
   
 Aula 15 (04/10/2018)
 
   - Prova P1
   
+### Módulo 2
+<strong>
+	Programação avançada em Android
+</strong>
+
+#### Conteúdo
+
 Aula 16 (09/10/2018)
 
   - Notificações em Android
@@ -239,14 +247,6 @@ Aula 21 (01/11/2018)
   - SupportMapFragment;
   - LatLng;
   - MarkerOptions;
-
-
-### Módulo 2
-<strong>
-	Programação avançada em Android
-</strong>
-
-#### Conteúdo
 
 ## Sobre os códigos
 <strong>Códigos e apresentações desenvolvidos durante a disciplina</strong>
