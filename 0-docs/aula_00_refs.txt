@@ -1,6 +1,7 @@
 Guia do Desenvolvedor Android
 Material atualizado do Android Studio para desenvolvedores
 Clique o link https://developer.android.com/guide/index.html?hl=pt-br para abrir o recurso
+https://developer.android.com/studio/debug/dev-options?hl=pt-br
 
 Github do Mário de Araújo Carvalho
 Códigos disponibilizados em aula, slides, materiais extras e conteúdo gratuito.

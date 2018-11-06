@@ -241,12 +241,19 @@ Aula 120 (30/10/2018)
 Aula 21 (01/11/2018)
 
   - GoogleMaps
-  - CameraUpdateFactory;
-  - GoogleMap;
-  - OnMapReadyCallback;
-  - SupportMapFragment;
-  - LatLng;
-  - MarkerOptions;
+  - CameraUpdateFactory
+  - GoogleMap
+  - OnMapReadyCallback
+  - SupportMapFragment
+  - LatLng
+  - MarkerOptions
+Aula 23 (06/11/2018)
+
+  - FusedLocationProviderClient
+  - LocationServices
+  - OnCompleteListener
+  - Task
+  - Location
 
 ## Sobre os códigos
 <strong>Códigos e apresentações desenvolvidos durante a disciplina</strong>
