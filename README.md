@@ -254,6 +254,11 @@ Aula 23 (06/11/2018)
   - OnCompleteListener
   - Task
   - Location
+  
+Aula 23 (06/11/2018)
+
+  - Address
+  - Geocoder
 
 ## Sobre os códigos
 <strong>Códigos e apresentações desenvolvidos durante a disciplina</strong>

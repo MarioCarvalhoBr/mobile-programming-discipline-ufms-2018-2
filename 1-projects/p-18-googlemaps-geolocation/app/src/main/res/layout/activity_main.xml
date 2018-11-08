@@ -23,6 +23,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/txt_lat"/>
             <EditText
+                android:text="-20.480817"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="numberDecimal|numberSigned"
@@ -32,6 +33,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/txt_long"/>
             <EditText
+                android:text="-54.6011277"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="numberDecimal|numberSigned"
@@ -51,6 +53,17 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Geo Localização" />
+                <Button
+                    android:id="@+id/btnAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Buscar Endereço" />
+
+                <Button
+                    android:id="@+id/btnUpdateAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Atualizar Localização" />
             </LinearLayout>
         </LinearLayout>
     </ScrollView>

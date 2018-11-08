@@ -13,6 +13,8 @@ public class MainActivity extends AppCompatActivity {
     private EditText edtLat, edtLong;
     private Button btnMap;
     private Button btnGeo;
+    private Button btnAddress;
+    private Button btnUpdateAddress;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,11 +24,41 @@ public class MainActivity extends AppCompatActivity {
         edtLong = findViewById(R.id.edtLong);
         btnMap = findViewById(R.id.btnMap);
         btnGeo = findViewById(R.id.btnGeo);
+        btnAddress = findViewById(R.id.btnAddress);
+        btnUpdateAddress = findViewById(R.id.btnUpdateAddress);
 
         btnGeo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, LastActivity.class);
+                startActivity(intent);
+            }
+        });
+        btnUpdateAddress.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                latitude = Double.parseDouble(edtLat.getText().toString());
+                longitude = Double.parseDouble(edtLong.getText().toString());
+
+                Intent intent = new Intent(MainActivity.this, UpdateLocationActivity.class);
+                intent.putExtra(Constants.LAT, latitude);
+                intent.putExtra(Constants.LONG, longitude);
+                Log.e("TAG","lat: " + latitude);
+                Log.e("TAG","long: " + longitude);
+                startActivity(intent);
+            }
+        });
+        btnAddress.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                latitude = Double.parseDouble(edtLat.getText().toString());
+                longitude = Double.parseDouble(edtLong.getText().toString());
+
+                Intent intent = new Intent(MainActivity.this, AddressLocationActivity.class);
+                intent.putExtra(Constants.LAT, latitude);
+                intent.putExtra(Constants.LONG, longitude);
+                Log.e("TAG","lat: " + latitude);
+                Log.e("TAG","long: " + longitude);
                 startActivity(intent);
             }
         });
