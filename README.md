@@ -260,6 +260,13 @@ Aula 23 (06/11/2018)
   - Address
   - Geocoder
 
+Aula 24 (13/11/2018)
+  - Services
+  - Bluetooth
+  - BluetoothAdapter;
+  - BluetoothDevice;
+  - BroadcastReceiver;
+
 ## Sobre os códigos
 <strong>Códigos e apresentações desenvolvidos durante a disciplina</strong>
 
